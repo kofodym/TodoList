@@ -10,3 +10,10 @@ formFill.addEventListener("submit", (e) => {
   //   console.log(inputText.value);
   
 });
+
+function todo() {
+  //create a new element li and add the task values entered in the textbox to it.
+  const newElement = document.createElement("li");
+  let textValue = inputText.value;
+
+}
