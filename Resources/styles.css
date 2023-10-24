@@ -140,14 +140,26 @@ ul {
     position: relative;
 }
 
-.scheduled-task li .checked {
+.scheduled-task li .check-square {
     position: absolute;
     right: 50px;
     cursor: pointer;
+    top: 10px;
+}
+
+.scheduled-task .checked {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
 }
 
 .scheduled-task li .trash {
-position: absolute;
+    position: absolute;
     right: 20px;
     cursor: pointer;
+    top: 10px;
+}
+
+
+.scheduled-task li .delete {
+    opacity: 0;
 }
