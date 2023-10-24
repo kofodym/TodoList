@@ -8,7 +8,7 @@ formFill.addEventListener("submit", (e) => {
   e.preventDefault();
   //test it by console logging the value of the input
   //   console.log(inputText.value);
-  
+  todo();
 });
 
 function todo() {
@@ -16,4 +16,7 @@ function todo() {
   const newElement = document.createElement("li");
   let textValue = inputText.value;
 
+  //add the value from the textbox, "new task" to the new element created.
+  newElement.textContent = textValue;
+  scheduledTask.appendChild(newElement);
 }
