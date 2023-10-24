@@ -19,4 +19,7 @@ function todo() {
   //add the value from the textbox, "new task" to the new element created.
   newElement.textContent = textValue;
   scheduledTask.appendChild(newElement);
+
+  //   clear input text
+  inputText.value = "";
 }
