@@ -51,4 +51,10 @@ function binBox(newElement) {
 
   //append to the new task in the li created
   newElement.appendChild(createBin);
+
+  //add event
+  createBin.addEventListener("click", () => {
+    // remove an element
+    newElement.remove();
+  });
 }
