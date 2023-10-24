@@ -42,3 +42,13 @@ function checkBox(newElement) {
 
 
 
+function binBox(newElement) {
+  //create containers
+  const createBin = document.createElement("div");
+
+  //attach each of the containers to the divs put in backtics because of the "".
+  createBin.innerHTML = `<img src="./Resources/images/trash-solid.svg" alt="Trash-list" class="trash" width="4%">`;
+
+  //append to the new task in the li created
+  newElement.appendChild(createBin);
+}
