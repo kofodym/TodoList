@@ -23,3 +23,13 @@ function todo() {
   //   clear input text
   inputText.value = "";
 }
+function checkBox(newElement) {
+  //create container
+  const createCheckbox = document.createElement("div");
+
+  //attach each of the containers to the divs put in backtics because of the "".
+  createCheckbox.innerHTML = `<img src="./Resources/images/square-check-solid.svg" alt="checked-list" class="check-square" width="4%">`;
+}
+
+
+
