@@ -29,6 +29,15 @@ function checkBox(newElement) {
 
   //attach each of the containers to the divs put in backtics because of the "".
   createCheckbox.innerHTML = `<img src="./Resources/images/square-check-solid.svg" alt="checked-list" class="check-square" width="4%">`;
+
+  //append to the new task in the li created
+  newElement.appendChild(createCheckbox);
+
+  //
+  createCheckbox.addEventListener("click", () => {
+    // add a new class checked
+    newElement.classList.toggle("checked");
+  });
 }
 
 
