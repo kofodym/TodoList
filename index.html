@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="todo-list" />
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="./Resources/styles.css">
+    <link rel="stylesheet" href="./Resources/mediaQueries.css">
+</head>
+
+<body>
+    <h1>
+        Let's help you <strong><em>STAY ORGANIZED</em></strong>
+    </h1>
+    <p>
+        You can now <em>focus</em> your thoughts in one place. Make sure you
+        <strong><em>check off</em></strong>completed task and also <strong><em>delete</em></strong> when it's done,
+        over a period of time.
+    </p>
+
+    <section class="form-group">
+        <form class="form">
+            <h2 class="form-header">What do you want to do today? <p id="date-time"></p></h2>
+            
+            <fieldset>
+                <legend> Type a task</legend>
+                <input type="text" placeholder="Enter a new to-do task" class="input-text" />
+                <!-- <input type="date" name="date" id="date" /> -->
+                <!-- <input type="time" name="" id="" /> -->
+                <button type="submit" id="submit">Add</button>
+            </fieldset>
+            <fieldset class="scheduled-group">
+                <legend> Scheduled Tasks</legend>
+                <ul class="scheduled-task">
+                    <li>Cook <img src="./Resources/images/square-check-solid.svg" alt="checked-list" class="checked" width="4%">
+                    <img src="./Resources/images/trash-solid.svg" alt="Trash-list" class="trash" width="4%"></li>
+                    <li>Wash<img src="./Resources/images/square-check-solid.svg" alt="checked-list" class="checked" width="4%">
+                    <img src="./Resources/images/trash-solid.svg" alt="Trash-list" class="trash" width="4%"></li> 
+                    <li>Sweep <img src="./Resources/images/square-check-solid.svg" alt="checked-list" class="checked" width="4%">
+                    <img src="./Resources/images/trash-solid.svg" alt="Trash-list" class="trash" width="4%"></li>
+                    <li>Sing <img src="./Resources/images/square-check-solid.svg" alt="checked-list"  class="checked" width="4%">
+                    <img src="./Resources/images/trash-solid.svg" alt="Trash-list" class="trash" width="4%"></li>
+                    <li>Wash <img src="./Resources/images/square-check-solid.svg" alt="checked-list"  class="checked"width="4%">
+                    <img src="./Resources/images/trash-solid.svg" alt="Trash-list" class="trash" width="4%"></li>
+                    <li>Sweep <img src="./Resources/images/square-check-solid.svg" alt="checked-list" class="checked" width="4%">
+                    <img src="./Resources/images/trash-solid.svg" alt="Trash-list" class="trash" width="4%"></li>
+                    <li>Sing <img src="./Resources/images/square-check-solid.svg" alt="checked-list" class="checked" width="4%">
+                    <img src="./Resources/images/trash-solid.svg" alt="Trash-list" class="trash" width="4%"></li>
+                </ul>
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>
